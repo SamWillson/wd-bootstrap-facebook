@@ -1,0 +1,243 @@
+/* Author : Sampan Verma */
+/**** Use this wisely ****/
+/***** May the Force *****/
+/****** Be with you ******/
+$color-brand : #3B5998;
+$color-backdrop : #E9EBEE;
+$color-element : #FFFFFF;
+$color-button : #F6F7F9;
+$color-button-text : #575757;
+$color-element-text:#000000;
+$color-element-text-sociobuttons:#7F7F7F;
+$color-focus-button:#4080FF;
+$navbar-text-darker:#17233D;
+$navbar-color-focus:#355089;
+.static-pills{
+  position: fixed;
+}
+.static{
+  position: fixed;
+  max-width: 270px;
+}
+.profile-icon-branded{
+  width:30px;
+  border:0px;
+  border-radius: 4px;
+  margin-top:-4px;
+  margin-right:5px;
+}
+#btn-facebook{
+  background: #F6F7F9;
+  color:#545D64;
+  border-color:#CED0D4;
+  padding:3px 7px;
+  &:hover, &:focus,&:visited{
+    background:#E9EBEE;
+    box-shadow: none;
+  }
+}
+.adverts-section{
+  color:#9094B4;
+  font-size:13px;
+  .trend{
+    margin-top:7px;
+  }
+  hr{
+    margin-top:3px;
+    margin-bottom:5px;
+
+  }
+}
+.post-track{
+  margin-top:20px;
+  color:#898F9C;
+}
+.socio-buttons{
+  margin-top:10px;
+  padding-top:5px;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  border-top:1px solid #E5E5E5;
+  a{
+    color:$color-element-text-sociobuttons;
+    margin-right:40px;
+
+  }
+}
+#post-heading{
+  margin:4px;
+}
+.post-info{
+  color:#91959D;
+}
+.post-meta{
+  font-size:12px;
+}
+.profile-title{
+  font-weight: bolder;
+  color:#367CBC;
+}
+.profile-icon{
+  width:40px;
+  border:1px solid $color-backdrop;
+}
+body{
+  background: $color-backdrop;
+}
+#create-section{
+  font-size:12px;
+}
+#nav-facebook{
+  li{
+    padding:0px;
+    &.title{
+      text-transform: uppercase;
+    }
+    a{
+      padding:5px;
+      color:black;
+      font-size:13px;
+      border:1px solid transparent;
+      &:hover{
+        background: #F6F7F9;
+        border-color:#DDDFE2;
+      }
+    }
+    &.active{
+      a{
+        font-weight: bolder;
+        background: #F6F7F9;
+        border-color:#DDDFE2;
+      }
+    }
+    &.spacer{
+      height:5px;
+    }
+  }
+}
+#navbar-facebook{
+  background:$color-brand;
+  border-radius:0px;
+  border:0;
+
+  /*
+    Navbar Height
+    Link - http://stackoverflow.com/questions/19576175/how-do-you-decrease-navbar-height-in-bootstrap-3
+  */
+
+  min-height:43px;
+  max-height:43px;
+  line-height:43px;
+  .navbar-nav > li > a {padding-top:12px; padding-bottom:11px;}
+
+  .navbar-brand{
+    margin-top:-9px;
+    font-size:30px;
+  }
+
+  a,a:link,a:hover{
+    color:white;
+  }
+}
+
+#navbar-form-facebook{
+  margin-top:8px;
+  .input-group{
+  }
+  .text-input{
+    height:25px;
+    width:300px;
+    border:0;
+    box-shadow: 0px 0px 1px 1px rgba(black, 0.1);
+  }
+  .btn-input{
+    border:0;
+    margin-top:-17px;
+    height:25px;
+    line-height:5px;
+    background:$color-button;
+    color:#565E6C;
+    box-shadow: 0px 0px 1px 1px rgba(black, 0.1);
+  }
+}
+#navbar-nav-facebook{
+  li.icon-button{
+    &.dropdown{
+      margin-top:7px;
+    }
+    &.lock{
+      font-size:17px;
+      margin-right:5px;
+    }
+    color:$navbar-text-darker;
+    a{
+      color:$navbar-text-darker;
+      font-size:20px;
+      margin:0px;
+      padding-left:0px;
+      padding-right:0px;
+    }
+    padding-left:5px;
+    padding-right:5px;
+    a{background:transparent;}
+    a:hover,a:focus{background:transparent;}
+  }
+  li.seperator{
+    color:#365089;
+    font-size:20px;
+    padding-right:0px;
+    padding-left:0px;
+    a{background:transparent;}
+    a:hover,a:focus{background:transparent;}
+  }
+  a{
+    height:28px;
+    line-height: 2px;
+    margin-top:7px;
+    padding:30px 15px;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+  a:hover{
+    background:$navbar-color-focus;
+  }
+  a:focus{
+    background:$navbar-color-focus;
+  }
+}
+#dropdown-menu-facebook{
+  border-radius:4px;
+  a{
+    font-size:12px !important;
+    line-height: 10px;
+    padding:5px;
+    font-weight: normal;
+  }
+  li{
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    padding:2px 5px;
+    height:25px;
+    line-height:25px;
+    &.divider{
+      height:1px;
+      padding:1px;
+      border:0;
+      &:hover{
+        background: auto;
+        border-color: auto;
+      }
+    }
+  }
+  li:hover{
+    a{color:white;}
+    background:$color-brand;
+    border-color:darken($color-brand, 20);
+  }
+}
+
+
+#facebook-page{
+  margin-top:50px;
+}
